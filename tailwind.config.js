@@ -10,7 +10,7 @@ module.exports = {
     extend: {
       colors: {},
       fontFamily: {
-        montserrat: "Montserrat, 'sans-serif'",
+        quicksand: ["Quicksand", "sans-serif"],
       },
       screens: {
         "3xl": "1900px",
