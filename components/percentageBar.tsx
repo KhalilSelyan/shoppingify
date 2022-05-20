@@ -7,7 +7,7 @@ interface Props {
 function PercentageBar(props: Props) {
   return (
     <div>
-      <div className="w-56 my-2 bg-gray-200 rounded-full h-2.5">
+      <div className="w-56 lg:w-1/5 my-2 bg-gray-200 rounded-full h-2.5">
         <div
           className={`bg-[#f9a109] h-2.5 rounded-full ${props.classname}`}
         ></div>

@@ -45,7 +45,7 @@ export default function Chart() {
   return (
     <div>
       <LineChart
-        className="w-80 h-52"
+        // className="w-80 h-52 lg:w-4/5"
         width={320}
         height={300}
         data={data}
